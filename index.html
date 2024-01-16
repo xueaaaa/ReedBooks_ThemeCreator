@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/xueaaaa/reedbooks/main/Resources/Icons/favicon.ico">
+    <title>ReedBooks Theme Creator</title>
+</head>
+<body>
+    <header class="container">
+        <div>
+            <a href="https://github.com/xueaaaa/reedbooks"><img class="icon" src="https://raw.githubusercontent.com/xueaaaa/reedbooks/main/Resources/Icons/favicon.png"/></a>
+            <h1>ReedBooks Theme Creator</h1>
+        </div>
+    </header>
+
+    <div class="content">
+        <div class="container">
+            <h2 class="accent">Using ReedBooks Theme Creator</h2>
+            <div class="space"></div>
+            <p>
+                ReedBooks Theme Creator is used to create a theme file for ReedBooks. All content created on this site does not belong to us, you are free to copy, edit and share.
+            </p>
+        </div>
+        
+        <div class="space-big"></div>
+
+        <div class="container">
+            <h2 class="accent">Create Your Theme</h2>
+            <div class="space"></div>
+            <div class="flex">
+                <form id="form">
+                    <div class="form-value">
+                        <label for="internal">Internal theme name</label>
+                        <input name="internal" required/>
+                    </div>
+                    <div class="form-value">
+                        <label for="display">Display theme name</label>
+                        <input name="display" required/>
+                    </div>
+                    <div class="form-value">
+                        <label for="author">Author</label>
+                        <input name="author" placeholder="Use &quot;Unsigned&quot; if you don't want to indicate authorship" required/>
+                    </div>
+
+                    <div class="space-big"></div>
+
+                    <div class="form-value">
+                        <label for="bg-color">Background color</label>
+                        <input type="color" name="bg-color">
+                    </div>
+
+                    <div class="form-value">
+                        <label for="cont-bg-color">Container background color</label>
+                        <input type="color" name="cont-bg-color">
+                    </div>
+
+                    <div class="form-value">
+                        <label for="book-bg-color">Book background color</label>
+                        <input type="color" name="book-bg-color">
+                    </div>
+
+                    <div class="form-value">
+                        <label for="accent-color">Accent color</label>
+                        <input type="color" name="accent-color">
+                    </div>
+
+                    <div class="form-value">
+                        <label for="text-color">Text color</label>
+                        <input type="color" name="text-color">
+                    </div>
+
+                    <div class="form-value">
+                        <label for="hint-color">Hint color</label>
+                        <input type="color" name="hint-color">
+                    </div>
+
+                    <div class="form-value">
+                        <label for="danger-color">Danger color</label>
+                        <input type="color" name="danger-color">
+                    </div>
+
+                    <div class="space"></div>
+
+                    <div class="form-value">
+                        <button type="submit">Create</button>
+                    </div>
+
+                    <a class="invisible" id="aa" href="">Download result</a>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container">
+            
+    </footer>
+</body>
+
+<script src="js/jszip.min.js"></script>
+<script src="js/main.js"></script>
+</html>
