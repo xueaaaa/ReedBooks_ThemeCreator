@@ -23,12 +23,13 @@ html {
     color: var(--text-color);
 }
 
-header div {
+header div, footer div {
     margin-left: 15%;
     margin-right: 15%;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    letter-spacing: 1px;
 }
 
 button{
@@ -58,7 +59,7 @@ a {
 }
 
 .content {
-    margin: 5% 40em 5% 40em;
+    margin: 5% 40% 5% 40%;
 }
 
 .content div {
@@ -66,12 +67,15 @@ a {
 }
 
 .content form {
-    width: 10em;
+    width: 30em;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
 .form-value {
+    display: flex;
+    justify-content:center;
     margin-bottom: 1em;
 }
 
@@ -85,8 +89,16 @@ a {
 
 .form-value label {
     display: block;
-    margin-bottom: 0.5em;
+    margin-right: 1em;
+    align-self: center;
 }
+
+.form-value-color {
+    width: 3em;
+    height: 3em;
+    text-align: center;    
+}
+
 
 .container h2 {
     text-align: center;
